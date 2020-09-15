@@ -1,0 +1,18 @@
+.link {
+    display: block;
+    background-color: #3d3b3c;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Karla', Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 15px 0 15px 0;
+    margin: 12px 0 11px 0;
+    border: 2px solid #3d3b3c;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #3d3b3c;
+    background-color: #fff;
+}

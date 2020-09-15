@@ -12,5 +12,25 @@ a {
 }
 
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
+
+li {
+    list-style: none;
+}
+
+img {
+    margin: 0 auto;
+  display: block;
+  height:  auto;
+}
+
+img, iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
